@@ -1,5 +1,3 @@
-'use strict';
-
 require('dotenv').config();
 const webServer = require('./webserver');
 const httpServerConfig = require('./config/http-server-config');
@@ -16,4 +14,4 @@ const mongoPool = require('./databases/mongo-pool');
     console.error(e);
     process.exit(1);
   }
-}());
+})();

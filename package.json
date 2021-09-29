@@ -1,10 +1,10 @@
 {
   "name": "node-api-rest-example",
   "dependencies": {
-    "mongoose": "~3.6.11",
+    "body-parser": "^1.5.1",
     "express": "^4.7.1",
     "method-override": "^2.1.2",
-    "node": "^16.10.0",
-    "body-parser": "^1.5.1"
+    "mongoose": "^6.0.8",
+    "node": "^16.10.0"
   }
 }
